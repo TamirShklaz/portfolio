@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Tamir Shklaz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700"
+      rel="stylesheet"
+    />
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <!-- Flaticons  -->
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div id="colorlib-page">
+      <div class="container-wrap">
+        <a
+          href="#"
+          class="js-colorlib-nav-toggle colorlib-nav-toggle"
+          data-toggle="collapse"
+          data-target="#navbar"
+          aria-expanded="false"
+          aria-controls="navbar"
+          ><i></i
+        ></a>
+        <aside
+          id="colorlib-aside"
+          role="complementary"
+          class="border js-fullheight"
+        >
+          <div class="text-center">
+            <div
+              class="author-img"
+              style="background-image: url(images/about.jpg);"
+            ></div>
+            <h1 id="colorlib-logo"><a href="index.html">Tamir Shklaz</a></h1>
+            <span class="position"
+              ><a href="#">Entrepreneur & Full Stack Developer</a></span
+            >
+          </div>
+          <nav id="colorlib-main-menu" role="navigation" class="navbar">
+            <div id="navbar" class="collapse">
+              <ul>
+                <li class="active">
+                  <a href="#" data-nav-section="home">Home</a>
+                </li>
+                <li><a href="#" data-nav-section="about">About</a></li>
+                <li><a href="#" data-nav-section="education">Education</a></li>
+                <li>
+                  <a href="#" data-nav-section="experience">Experience</a>
+                </li>
+                <li><a href="#" data-nav-section="blog">Public Speaking</a></li>
+                <li><a href="#" data-nav-section="contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </aside>
+
+        <div id="colorlib-main">
+          <section id="colorlib-hero" class="js-fullheight" data-section="home">
+            <div class="flexslider js-fullheight">
+              <ul class="slides">
+                <li style="background-image: url(images/img_bg_1.jpg);">
+                  <div class="overlay"></div>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div
+                        class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text"
+                      >
+                        <div class="slider-text-inner js-fullheight">
+                          <div class="desc">
+                            <h1>Hi! <br />I'm Tamir</h1>
+                            <h2>I'm an Entrepreneur</h2>
+                            <p>
+                              <a
+								class="btn btn-primary btn-learn"
+								target="_blank"
+                                href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8efa0ed4-13c3-44ce-ad09-d31cb0302a0b/Tamir_SHklaz.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAT73L2G45OVNJN3MQ%2F20190901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20190901T191714Z&X-Amz-Expires=86400&X-Amz-Security-Token=AgoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJIMEYCIQCL4EQn1f6YcqPBB74TXus%2FRB6sNC3gLfp0IlP%2FsYbCjAIhAInBkoWz0kYnKmt6jfsofer5AIIAXxhc1ZLVF5EZ9DNrKuMDCNf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMjc0NTY3MTQ5MzcwIgzxLxYR6g6AoQfiCAEqtwNMQKqxicgy3rcVOGPucQVGM5ki8fgpccKBr8Lg2BvIybbScpxek4Q1ekhP1bhGE1Yyfia9oKCFZ1v%2BT7kVFrohf70ZVPVnwnKknoHhUZGfbNr2YmB%2FXlfvDyPC%2FBq8Nkj6RYJGSuoK%2FVHEQTXcDWMIOa1ko56GStNiWCG6hKoZA1NOLAfHankkW3nKiA7Rjf%2F8wk4Z48tnStUx9zKxZO21i18gmcLfmr4mf18CUgWWCDFAZNtHdcUmhn%2FxyW%2Bdj9lZHBl3OU6FRvrKxkrJ7ghQ8V%2BDdFcznzUItW0CDEu8LUN7ipscNEy8Ljk2yqB5GYCfXhkhSzLXkVneHhWYznAceUHXC1dzKmX88dYrQr5pYAWnQWsVmdiWB3Bc2ir0K%2F2oKEBjHnYQoxaYM2x5sdE5KuqoiGIIGmRKFgzZKzk%2F0NMBfE3qjeDJySkmV9exkqtLKVoOe43wPwcbMow00oSh0T8McoohvsxJJZWwQNMcHo53XFpK7eoTWGjlvKyrO7HIjmXspeWA9u2RajHVI7vsKIsTnd2EQPWoiFZNjAFCJIvioI1fgd0R8w6JCtDru%2BoGpfIfvoutMLuMr%2BsFOrMBCEL4L6%2F7an3l5jVmp6RHmEMRm%2BCSNXjnwKbZMW8oQSTZQf%2B56%2BBxTh6UKhgZkxF9q6Tk2RUaTouEn5Y3G7%2F2Wh5YtqvEldTJ0o2uayCbjjqCFvQUOTLNC8ARd3hjl8yRhSc6Qn1LQphMhUGb4TIH696VUskmD%2BAIL2v4mgHp4wxPKQdfhC5z%2BtsIlGXezz2TpiYkYlrOQQLTlkwMpiLzdZT0blRkHfwREyn7SdmNgt%2BoEBs%3D&X-Amz-Signature=558c1024cb26cff444d79f38e4124b039e55f785e2b4fa5c492f064d1c653a64&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Tamir%2520SHklaz.pdf%22"
+                                >Download CV <i class="icon-download4"></i
+                              ></a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li style="background-image: url(images/img_bg_2.jpg);">
+                  <div class="overlay"></div>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div
+                        class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text"
+                      >
+                        <div class="slider-text-inner">
+                          <div class="desc">
+                            <h1>I am <br />a Full Stack Developer</h1>
+                            <h2>Typescript, Python, C++</h2>
+                            <p>
+                              <a
+                                class="btn btn-primary btn-learn"
+                                href="https://github.com/TamirShklaz"
+                                target="_blank"
+                                >View Github <i class="icon-briefcase3"></i
+                              ></a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="colorlib-about" data-section="about">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div class="col-md-12">
+                  <div
+                    class="row row-bottom-padded-sm animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div class="col-md-12">
+                      <div class="about-desc">
+                        <span class="heading-meta">About Me</span>
+                        <h2 class="colorlib-heading">Who Am I?</h2>
+                        <p>
+                          "Education is the most powerful weapon which you can
+                          use to change the world." - Nelson Mandela This quote
+                          encompasses my mission in life: to make the world a
+                          better place through the use of education. I have a
+                          natural affinity for software engineering and building
+                          products. I plan to use this talent to create products
+                          and services that empower students and teachers alike.
+                          I thrive in positions of high uncertainty and
+                          discomfort. I have a strong ability to understand
+                          problems simplify them and then work productively and
+                          efficiently to solve them. I have two additional
+                          characteristics that enable me to thrive in positions
+                          of uncertainty.
+                        </p>
+                        <p>
+                          I learn things very quickly. Whether it is a new
+                          programming framework or business concept, I quickly
+                          adapt and teach myself the necessary skills to produce
+                          phenomenal work in that field
+                        </p>
+                        <p>
+                          I am incredibly resilient I am intrinsically
+                          optimistic and take challenges and failure as
+                          opportunities to grow and learn.
+                        </p>
+
+                        <h2>My Primary Skills</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-md-3 animate-box"
+                      data-animate-effect="fadeInLeft"
+                    >
+                      <div class="services color-1">
+                        <span class="icon2"><i class="icon-bulb"></i></span>
+                        <h3>Startups & Entrepreneurship</h3>
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-3 animate-box"
+                      data-animate-effect="fadeInRight"
+                    >
+                      <div class="services color-2">
+                        <span class="icon2"
+                          ><i class="icon-globe-outline"></i
+                        ></span>
+                        <h3>Full Stack Development</h3>
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-3 animate-box"
+                      data-animate-effect="fadeInTop"
+                    >
+                      <div class="services color-3">
+                        <span class="icon2"><i class="icon-data"></i></span>
+                        <h3>Security</h3>
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-3 animate-box"
+                      data-animate-effect="fadeInBottom"
+                    >
+                      <div class="services color-4">
+                        <span class="icon2"><i class="icon-phone3"></i></span>
+                        <h3>Design & Aesthetics</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- <div id="colorlib-counter" class="colorlib-counters"
+					style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
+					<div class="overlay"></div>
+					<div class="colorlib-narrow-content">
+						<div class="row">
+						</div>
+						<div class="row">
+							<div class="col-md-3 text-center animate-box">
+								<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000"
+									data-refresh-interval="50"></span>
+								<span class="colorlib-counter-label">Cups of coffee</span>
+							</div>
+							<div class="col-md-3 text-center animate-box">
+								<span class="colorlib-counter js-counter" data-from="0" data-to="356" data-speed="5000"
+									data-refresh-interval="50"></span>
+								<span class="colorlib-counter-label">Projects</span>
+							</div>
+							<div class="col-md-3 text-center animate-box">
+								<span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000"
+									data-refresh-interval="50"></span>
+								<span class="colorlib-counter-label">Clients</span>
+							</div>
+							<div class="col-md-3 text-center animate-box">
+								<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000"
+									data-refresh-interval="50"></span>
+								<span class="colorlib-counter-label">Partners</span>
+							</div>
+						</div>
+					</div>
+				</div> -->
+
+          <section class="colorlib-education" data-section="education">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta">Education</span>
+                  <h2 class="colorlib-heading animate-box">Education</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col-md-12 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="fancy-collapse-panel">
+                    <div
+                      class="panel-group"
+                      id="accordion"
+                      role="tablist"
+                      aria-multiselectable="true"
+                    >
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                          <h4 class="panel-title">
+                            <a
+                              data-toggle="collapse"
+                              data-parent="#accordion"
+                              href="#collapseOne"
+                              aria-expanded="true"
+                              aria-controls="collapseOne"
+                              >B.Eng Electrical & Computer Engineering (UCT)
+                            </a>
+                          </h4>
+                        </div>
+                        <div
+                          id="collapseOne"
+                          class="panel-collapse collapse in"
+                          role="tabpanel"
+                          aria-labelledby="headingOne"
+                        >
+                          <div class="panel-body">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <p>
+                                  Graduate in 2019 in Electrical & Computer
+                                  Engineering from University of Cape Town
+                                </p>
+                              </div>
+                              <div class="col-md-6">
+                                <p>
+                                  Achieved a 75%+ Aggregate for every year of
+                                  study. Came top in the class in first year
+                                  physics and 2nd year electronics
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                            <a
+                              class="collapsed"
+                              data-toggle="collapse"
+                              data-parent="#accordion"
+                              href="#collapseTwo"
+                              aria-expanded="false"
+                              aria-controls="collapseTwo"
+                              >Matric King David Victory Park
+                            </a>
+                          </h4>
+                        </div>
+                        <div
+                          id="collapseTwo"
+                          class="panel-collapse collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingTwo"
+                        >
+                          <div class="panel-body">
+                            <p>
+                              Graduated from King David Victory Park highschool
+                              in 2015 with <strong>9 distinctions</strong>
+                            </p>
+                            <p>
+                              Came within the top 1% for English in South Africa
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                          <h4 class="panel-title">
+                            <a
+                              class="collapsed"
+                              data-toggle="collapse"
+                              data-parent="#accordion"
+                              href="#collapseThree"
+                              aria-expanded="false"
+                              aria-controls="collapseThree"
+                              >Google Africa Scholarship Mobile Web Specialist
+                              Course
+                            </a>
+                          </h4>
+                        </div>
+                        <div
+                          id="collapseThree"
+                          class="panel-collapse collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingThree"
+                        >
+                          <div class="panel-body">
+                            <p>
+                              Online course for mobile web development offered
+                              by Andela in partnership with Google
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="colorlib-experience" data-section="experience">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta">Experience</span>
+                  <h2 class="colorlib-heading animate-box">Work Experience</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="timeline-centered">
+                    <article
+                      class="timeline-entry animate-box"
+                      data-animate-effect="fadeInLeft"
+                    >
+                      <div class="timeline-entry-inner">
+                        <div class="timeline-icon color-1">
+                          <i class="icon-pen2"></i>
+                        </div>
+
+                        <div class="timeline-label">
+                          <h2>
+                            <a href="#">Founder and C.E.O at Quillo</a>
+                            <span>2018-Present</span>
+                          </h2>
+                          <p>
+                            Quillo is South Africa's largest second-hand
+                            textbook marketplace. While being a full-time
+                            student studying electrical and computer engineering
+                            at the University of Cape Town, I scaled Quillo to
+                            more than 30 000 students across 24 different
+                            universities in South Africa. Quillo, since it's
+                            inception, has transacted more than R550K in
+                            textbook value and has saved students R1.5M on
+                            textbooks.At Quillo, I was responsible for: Product
+                            Development (From UX design to coding and deployment
+                            on AWS) marketing and financial management. At its
+                            peak, I was managing a team of 4 developers, two
+                            sales representatives and 18 brand ambassadors.
+                          </p>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article
+                      class="timeline-entry begin animate-box"
+                      data-animate-effect="fadeInBottom"
+                    >
+                      <div class="timeline-entry-inner">
+                        <div class="timeline-icon color-none"></div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="colorlib-blog" data-section="blog">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta">Watch</span>
+                  <h2 class="colorlib-heading">Public Speaking</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row" style="margin-left: 32px;">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/Q57S9ZY2ok0"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="row" style="margin-left: 32px;">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/f8DfhTcQuKc"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </section>
+
+          <section class="colorlib-contact" data-section="contact">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta">Get in Touch</span>
+                  <h2 class="colorlib-heading">Contact</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-5">
+                  <div
+                    class="colorlib-feature colorlib-feature-sm animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div class="colorlib-icon">
+                      <i class="icon-globe-outline"></i>
+                    </div>
+                    <div class="colorlib-text">
+                      <p><a href="#">shklazt@gmail.com</a></p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="colorlib-feature colorlib-feature-sm animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div class="colorlib-icon">
+                      <i class="icon-map"></i>
+                    </div>
+                    <div class="colorlib-text">
+                      <p>30 Craighall Road Victory Park</p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="colorlib-feature colorlib-feature-sm animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div class="colorlib-icon">
+                      <i class="icon-phone"></i>
+                    </div>
+                    <div class="colorlib-text">
+                      <p><a href="tel://">+27 73 844 9416</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7 col-md-push-1">
+                  <div class="row">
+                    <div
+                      class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box"
+                      data-animate-effect="fadeInRight"
+                    >
+                      <form action="">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Name"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Email"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Subject"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <textarea
+                            name=""
+                            id="message"
+                            cols="30"
+                            rows="7"
+                            class="form-control"
+                            placeholder="Message"
+                          ></textarea>
+                        </div>
+                        <div class="form-group">
+                          <input
+                            type="submit"
+                            class="btn btn-primary btn-send-message"
+                            value="Send Message"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- end:colorlib-main -->
+      </div>
+      <!-- end:container-wrap -->
+    </div>
+    <!-- end:colorlib-page -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="js/jquery.flexslider-min.js"></script>
+    <!-- Owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Counters -->
+    <script src="js/jquery.countTo.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
